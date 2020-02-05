@@ -25,11 +25,11 @@ impl KvStore {
         self.map.insert(key, value);
     }
     ///remove
-    pub fn remove(&mut self, key: String) -> Result<u32, &str> {
+    pub fn remove(&mut self, key: String) -> bool {
         let _v: Option<String> = self.map.remove(&key);
         match _v {
-            Some(_) => Ok(1),
-            None => Err("Remove Key Failed!"),
+            Some(_) => true,
+            None => false,
         }
     }
 }
