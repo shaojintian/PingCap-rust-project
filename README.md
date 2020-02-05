@@ -4,11 +4,11 @@ This is my solution of [pingcap-talent-plan](https://github.com/pingcap/talent-p
 
 ## Schedule
 
-[x] Project1
-[]Project2
-[]Project3
-[]Project4
-[]Project5
+- [x] Project1
+- []Project2
+- []Project3
+- []Project4
+- []Project5
 
 ## Individual innovational points
 
